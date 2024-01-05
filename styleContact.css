@@ -1,0 +1,127 @@
+body {
+  background: #808080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.modal-content {
+  background-color: #eff1f3;
+  padding-top: 20px;
+  border: 1px solid #888;
+  width: 550px;
+  height: 800px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.close-div {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #555555;
+  text-decoration: none;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+.pro-pic {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-radius: 50px;
+  border-color: black;
+}
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e1306c;
+  color: white;
+}
+
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+}
+.fa-linkedin {
+  background: #006699;
+  color: white;
+}
+.fa-github {
+  background: #333;
+  color: white;
+}
+.brand-text{
+    padding-left: 10px;
+}
+.brand-logo{
+    padding-left: 10px;
+}
+@font-face {
+  font-family: "facebook";
+  src: url(font/FACEBOLF.OTF) format("woff");
+}
+
+@font-face {
+  font-family: "insta";
+  src: url(font/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "youtube";
+  src: url(font/youtube-sans-bold.otf) format("woff");
+
+}
+@font-face {
+  font-family: "github";
+  src: url(font/Surface-Bold.ttf) format("woff");
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display:list-item;
+        height: 50vh;
+    }
+  }
