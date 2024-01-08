@@ -1,5 +1,6 @@
 body {
   background: url(images/snowflakes-background4.png);
+  font-family:'Comic Sans MS';
 }
 div.main-div {
   margin: 2px;
@@ -18,15 +19,22 @@ div.main-div {
   margin-right: auto;
   width: 400px;
 }
+.image-left-list {
+  
+  width: 350px;
+}
 .img-tag{
     padding-top:20px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     .img-middle {
-    width: 200px;
+    width: 100%;
   }
   .img-tag
   {
     font-size: small;
+  }
+  .image-left-list {
+    width:100%;
   }
 }
